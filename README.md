@@ -48,6 +48,19 @@ The network is designed to support multiple departments, centralized services, v
 
 ---
 
+## 🖥️ Server & Network Services
+The central server provides critical services for the enterprise network:
+
+- **DHCP** – Assigns IP addresses to devices across VLANs  
+- **DNS** – Resolves hostnames within the network  
+- **TFTP** – Supports IP phone configuration and firmware updates  
+- **HTTPS** – Secure web services for internal applications  
+- **FTP** – File transfer and centralized storage  
+- **NTP** – Network time synchronization for all devices  
+- **Syslog** – Centralized logging for monitoring and troubleshooting  
+
+---
+
 ## 🌐 Routing & Internet Connectivity
 - EIGRP (AS 100) between core switch and routers  
 - Default route toward ISP  
@@ -59,29 +72,29 @@ The network is designed to support multiple departments, centralized services, v
 ## 🔐 Security & Network Services
 - Access Control Lists (ACLs) to restrict server access  
 - DHCP relay via `ip helper-address`  
-- Centralized NTP and Syslog server  
 - Inside / Outside NAT separation  
 
 ---
 
-## 📁 Repository Contents
-- `Small_Business_Network.pkt` – Cisco Packet Tracer topology
-- `Small_Business_Network.png` – Topology Overview 
-- `README.md` – Project documentation  
-
----
-
-## 🎯 Network Features & Capabilities
+## 💡 Technical Highlights
 - VLAN design & VLSM subnetting  
 - Layer 3 switching  
 - Dynamic routing (EIGRP)  
 - VoIP (CME & IP Phones)  
 - NAT & WAN connectivity  
 - ACL-based traffic control  
+- Centralized server services (DHCP, DNS, TFTP, HTTPS, FTP, NTP, Syslog)  
+
+---
+
+## 📁 Repository Contents
+- `Small_Business_Network.pkt` – Cisco Packet Tracer Network File
+- `Small_Business_Topology.png` - Network Topology
+- `README.md` – Project documentation  
 
 ---
 
 ## 👤 Author
-*Aaron Swaby* 
+**Aaron Swaby**  
 
 Cisco Packet Tracer Enterprise Network Project
